@@ -2,7 +2,7 @@ package client
 
 import (
 	"errors"
-	"github.com/coreos/etcd/clientv3"
+	"go.etcd.io/etcd/clientv3"
 	mvccpb "go.etcd.io/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 	"strings"
